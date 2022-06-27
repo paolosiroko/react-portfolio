@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { ReactComponent as Menu } from '../assets/menu.svg'
 
 import "../styles/Navbar.css";
 
@@ -28,7 +29,7 @@ function NavBar() {
             setExpandNavbar((prev) => !prev);
           }}
         >
-          Menu
+          <Menu />
         </button>
       </div>
       <div className="links">
