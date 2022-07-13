@@ -8,7 +8,7 @@ export default function Home() {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Django", "React Js"];
+  const toRotate = [ "Web Developer" , "Python", "Django Framework", "React Js"];
   const period = 2000;
 
   useEffect(() => {
@@ -50,7 +50,7 @@ export default function Home() {
         <h2 style={{ margin: "60px" }} > {`Hi, My Name is Paolo Siroko`}<span><br/>{text}</span></h2>
         <div className="prompt" style={{ margin: "40px" }}>
           <p>
-            A software developer with 2 years experience and a passion for
+            A software developer with a passion for
             learning and creating.This is my portfolio.
           </p>
 
